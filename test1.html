@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS3画圆环</title>
+	<link rel="stylesheet" href="">
+
+	<style>
+		
+/*
+		#circle{
+			width:6px;
+			height: 6px;
+			border-radius: 3px;
+			margin: 200px 0px 0px 200px;
+			transform: translate(-50%,-50%);
+			background-color: aqua;
+			z-index: 30
+		}
+*/
+
+		.circle{
+			margin: 200px 0px 0px 200px;
+		}
+		.circle1 {
+			margin: 200px 0px 0px 200px;
+			position: fixed;
+			text-align: center;
+			width:10px;
+			height: 10px;
+			border: 1px solid;
+			border-radius: 5px;
+			border-color: aqua;
+			transform: translate(-50%,-50%);
+			animation: myfirst 4s;
+/*			animation-timing-function:linear; //匀速播放*/
+			animation-iteration-count:infinite; //播放次数，无限循环播放
+			-webkit-animation: myfirst 4s;
+
+			/* Safari and Chrome */
+		}
+
+		@keyframes myfirst {
+			0% {
+				width: 10px;
+			  height: 10px;
+				border-radius: 5px;
+				opacity: 80%;
+			}
+			50%{
+				opacity: 100%;
+			}
+			100% {
+				width: 80px;
+			  height: 80px;
+				border-radius: 40px;
+				opacity: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+<!--		<p class="circle">circle</p>-->
+		<span class=" circle1">
+			
+		</span>
+	
+
+	</div>
+
+
+
+
+
+
+	<script src=""></script>
+</body>
+
+</html>

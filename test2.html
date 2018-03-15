@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.item1 {
+			margin: 200px 0px 0px 200px;
+			position: fixed;
+			text-align: center;
+			width: 10px;
+			height: 10px;
+			border: 1px solid;
+			border-radius: 5px;
+			border-color: aqua;
+			transform: translate(-50%, -50%);
+			list-style: none;
+			-webkit-animation: revolving 4s 0s infinite;
+			animation: revolving 4s 0s infinite;
+		}
+
+		@-webkit-keyframes revolving {
+			0,
+			75% {
+				width: 60px;
+			height: 60px;
+			border-radius: 30px;
+			}
+			87.5% {
+				width: 70px;
+			height: 70px;
+			border-radius: 35px;
+			}
+			100% {
+				width: 80px;
+			height: 80px;
+			border-radius: 40px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="item1">
+	</div>
+	<ul>
+<!--		<li class="item1">梅西与美洲杯失之交臂</li>-->
+	</ul>
+</body>
+</html>
