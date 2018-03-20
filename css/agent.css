@@ -1,5 +1,5 @@
 .main{
-	max-width: 1280px;
+	width: 1280px;
 	margin: 0 auto;
 } 
 .title{
@@ -122,12 +122,12 @@
 /*	margin: 15px 0 0 0;*/
 }
 /*代理商合作条件*/
+/*
 .cc1{
 	width: 50px;
 	height: 50px;
-	border-radius: 25px;
+	border-radius: 50%;
 	border: 2px solid rgb(228,229,255);
-/*	border: 2px solid rgb(77,145,255);*/
 	display: inline-block;
 	background-color: white;
 	border-right: 2px solid rgb(77,145,255);
@@ -155,4 +155,4 @@
 }
 .hr{
 	width: 2px;height: 90px;border: none; border-left:2px solid  rgb(77,145,255);
-}
+}*/

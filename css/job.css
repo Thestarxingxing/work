@@ -1,15 +1,35 @@
 #main{
-	max-width: 1280px;
+	width: 1280px;
 	margin: 0 auto;
 } 
-
-.p{
-	font-weight: 600;
-	line-height: 150%;
-	color: black;
-	padding-top: 25px
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
 }
-p{
-	line-height: 90%;
-	color: rgb(100,100,100)
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+.jobl{
+	float: left;
+	width: 15%;
+	box-sizing: border-box;
+	padding-top: 18px
+}
+.jobr{
+	float: right;
+	width: 85%;
+	margin-bottom: 60px
+}
+.jobr h3{
+	line-height: 1.2;
+}
+.jobr li{
+	line-height: 1.5;
+	color: rgb(100,100,100);
+	list-style: none;
+	margin-left: -40px;
 }
